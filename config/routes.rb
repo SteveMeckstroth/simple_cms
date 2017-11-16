@@ -1,4 +1,8 @@
 Rails.application.routes.draw do
+  get 'steve1/mail'
+
+  get 'steve1/math'
+
   root 'demo#index'
 
   get 'demo/index'
