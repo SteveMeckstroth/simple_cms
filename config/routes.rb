@@ -7,6 +7,7 @@ Rails.application.routes.draw do
 
   get 'demo/index'
   get 'demo/hello'
+  get 'demo/other_hello'
 
   #default routing may go away...
   #get ':controller(/:action(/:id))'
