@@ -5,3 +5,13 @@
 <% target = "world" %>
 
 <%= "Hello #{target}" %>
+
+<br/>
+
+<% @array.each do |n| %>
+  <%= n %><br />
+<% end %>
+
+<br/>
+
+<%= link_to('Back to Index page',{:action => 'index'})%><br />
